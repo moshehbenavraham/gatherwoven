@@ -1,0 +1,23 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+
+# Auth-walled and user-data routes — keep out of the index
+Disallow: /admin
+Disallow: /auth
+Disallow: /my-events
+Disallow: /create-event
+Disallow: /event/*/edit
+
+Sitemap: https://event-platform-website.app/sitemap.xml
